@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4310207616723278686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4310207616723278684}
+  - component: {fileID: 4310207616723278685}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4310207616723278684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310207616723278686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.253002, y: -28.655243, z: -28.432945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4310207616723278685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310207616723278686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e03b2408b4ab0c43bec80781c1b850f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundSounds:
+  - name: Background Music 1
+    clip: {fileID: 8300000, guid: 3e549b1342618ec459bbdba16774b2e7, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Background Music 2
+    clip: {fileID: 8300000, guid: 69ecb1762577f0d4b99207b37920da6b, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Background Music 3
+    clip: {fileID: 8300000, guid: 757ae7a767c0aa143b3822850f429612, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Background Music 4
+    clip: {fileID: 8300000, guid: da1f7317c45c9ad4a93e321a300d4892, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Background Music 5
+    clip: {fileID: 8300000, guid: 67686657a0fc34c49a717ade8b61b99d, type: 3}
+    volume: 0.78
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
