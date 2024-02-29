@@ -7,6 +7,8 @@ Jplafraugh,
 abangurah,
 jstade
 
+*UNITY IS REQUIRED* 
+
 To download and setup:
 1. Download the github zip file and extract to a folder of your choosing.
 2. Download unity and install, a free account may be required. 
